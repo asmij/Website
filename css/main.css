@@ -7,7 +7,7 @@ body {
 	font-family: sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color:#4E4848;
+	background-color:#353535;
 }
 
 #header {
@@ -29,7 +29,7 @@ body {
 #menubar {
 	width: auto;
 	height:auto;
-	background-color:#C12828;
+	background-color:#ECD672;
 	margin-left: 10em;
 	margin-right: auto;
 }
