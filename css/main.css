@@ -1,0 +1,39 @@
+/*
+Description: 	Theme for PLACEHOLDER
+Author: 	Asmi Joshi, 2012
+*/
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color:rgb(50,50,50);
+}
+
+#header {
+	font-family: Helvetica, sans-serif;
+	overflow: hidden;
+	text-align: left;
+	width: 800px;
+	margin: auto;
+	padding-top: .5em;
+}
+
+#header ul.nav {
+	display: inline;
+	margin: auto 40px auto 40px;
+	font-size: 30px;
+	color: white;
+}
+
+#menubar {
+	width: auto;
+	height:auto;
+	background-color:#4EE2EC;
+	margin-left: 10em;
+	margin-right: auto;
+}
+
+.centered {
+	
+}
