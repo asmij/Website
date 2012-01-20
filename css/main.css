@@ -25,13 +25,41 @@ body {
 	font-size: 30px;
 	color: white;
 }
-
+/*
 #menubar {
 	width: auto;
 	height:auto;
 	background-color:#FFEC8B;
 	margin-left: 10em;
 	margin-right: auto;
+}
+*/
+
+#boxContainer{
+	width:200px;
+}
+
+.box { 
+  background: #FFEC8B; 
+}
+.boxtop { 
+  background: url(ne.gif) no-repeat top right; 
+}
+.boxtop div { 
+  font-size: 0;
+  height: .5em; 
+  background: url(nw.gif) no-repeat top left; 
+}
+.boxbottom { 
+  background: url(se.gif) no-repeat bottom right; 
+}
+.boxbottom div { 
+  font-size: 0;
+  height: .5em; 
+  background: url(sw.gif) no-repeat bottom left; 
+}
+.boxcontent {
+  padding: 0px 10px 0px 10px;
 }
 
 .centered {
