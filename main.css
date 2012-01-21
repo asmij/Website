@@ -20,7 +20,7 @@ body {
 }
 
 #header h1{
-	color:#3090C7;/*#8A4117;*/
+	color: #E66C2C;/*#8A4117;*/
 }
 
 #menuBar {	
@@ -34,7 +34,8 @@ body {
 	display: inline;
 	margin: auto 40px auto 40px;
 	font-size: 25px;
-	color: #357EC7; /*#C35617; */
+	color: #E56717; /*#C35617; */
+	
 }
 
 #main {
@@ -46,12 +47,12 @@ body {
 }
 
 #main p {
-	color: #3090C7;
+	color: #F9966B;
 }
 
 #main a {
 	text-decoration: none;
-	color: #87AFC7; /*#1569C7;*/
+	color: #87AFC7; /*#3090C7;*/
 }
 
 #footer {
@@ -62,6 +63,7 @@ body {
 	font-size: 0.75em;
 	color: #808080;
 }
+
 
 /* To get the rounded edges on the menu bar */
 .box { 

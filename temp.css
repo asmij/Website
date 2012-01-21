@@ -55,6 +55,16 @@ body {
 	color: #3090C7;
 }
 
+#footer {
+	text-align: right;
+	margin-top: 25px;
+	margin-bottom: 25px; 
+	clear: both;
+	font-size: 0.75em;
+	color: #808080;
+}
+
+
 /* To get the rounded edges on the menu bar */
 .box { 
   background: #FAF8CC; 
