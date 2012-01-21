@@ -35,6 +35,7 @@ body {
 	margin: auto 40px auto 40px;
 	font-size: 25px;
 	color: #E56717; /*#C35617; */
+	
 }
 
 #main {
@@ -46,21 +47,12 @@ body {
 }
 
 #main p {
-	color: #3090C7;
+	color: #F9966B;
 }
 
 #main a {
 	text-decoration: none;
-	color: #87AFC7; /*#1569C7;*/
-}
-
-#footer {
-	text-align: right;
-	margin-top: 25px;
-	margin-bottom: 25px; 
-	clear: both;
-	font-size: 0.75em;
-	color: grey;
+	color: #3090C7;
 }
 
 /* To get the rounded edges on the menu bar */
