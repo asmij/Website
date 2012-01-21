@@ -34,7 +34,24 @@ body {
 	display: inline;
 	margin: auto 40px auto 40px;
 	font-size: 25px;
-	color: #C35617;
+	color: #F76541; /*#C35617; */
+}
+
+#main {
+	font-family:"Verdana", "Lucida Grande", helvetica, sans-serif;
+	margin: auto;
+	overflow: hidden;
+	width: 800px; 
+	text-align: left;
+}
+
+#main p {
+	color: #F88017;
+}
+
+#main a {
+	text-decoration: none;
+	color: #3090C7;
 }
 
 /* To get the rounded edges on the menu bar */
