@@ -20,7 +20,7 @@ body {
 }
 
 #header h1{
-	color: #E66C2C;/*#8A4117;*/
+	color:#3090C7;/*#8A4117;*/
 }
 
 #menuBar {	
@@ -34,7 +34,7 @@ body {
 	display: inline;
 	margin: auto 40px auto 40px;
 	font-size: 25px;
-	color: #E56717; /*#C35617; */
+	color: #357EC7; /*#C35617; */
 }
 
 #main {
@@ -60,7 +60,7 @@ body {
 	margin-bottom: 25px; 
 	clear: both;
 	font-size: 0.75em;
-	color: grey;
+	color: #808080;
 }
 
 /* To get the rounded edges on the menu bar */
