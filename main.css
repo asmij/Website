@@ -13,7 +13,8 @@ body {
 }
 
 #header {
-	font-family: "Lucida Grande", helvetica, verdana, arial, sans-serif;
+	font-family: "Verdana", "Lucida Grande", helvetica, sans-serif;
+	font-variant: small-caps;
 	margin: 0px;
 	overflow: hidden;
 		
