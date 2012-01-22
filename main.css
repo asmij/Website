@@ -38,6 +38,10 @@ body {
 	
 }
 
+#menuBar li.current {
+	color: #3090C7;
+}
+
 #main {
 	font-family:"Verdana", "Lucida Grande", helvetica, sans-serif;
 	margin: auto;
@@ -55,6 +59,9 @@ body {
 	color: #87AFC7; /*#3090C7;*/
 }
 
+#main a:hover {
+	color: #3090C7;
+}
 #footer {
 	text-align: right;
 	margin-top: 25px;
