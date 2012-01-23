@@ -1,101 +1,51 @@
-/*
-Description: 	Theme for PLACEHOLDER
-Author: 	Asmi Joshi, 2012
-*/
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 
+<html>
+<head>
+  <title>Resume</title>
+  <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
 
-body {
-	font-family: sans-serif; 
-    background: #353535; 
-    margin: 0;
-    padding: 0;
-    text-align:center;
-}
-
-#header {
-	font-family:"Verdana", "Lucida Grande", helvetica, sans-serif;
-	margin: 0px;
-	overflow: hidden;
+<body>
+	
+	<!-- Header including Name and Menu bar -->
+	<div id="header">
+		<div class="centered">
+			
+			<h1>Asmi Joshi</h1>
 		
-}
+	
+			<div id="menuBar">
+		  		<div class='box'>
+					<div class='boxtop'><div></div></div>
+				   	<div class='boxcontent'>
+				     <!-- Content goes here -->
+				
+				    <ul>
+				    	<li><a href="index.html">About</a></li>
+				    	<li class="current"><a href="portfolio.html">Portfolio</a></li>
+				    	<li><a href="resume.html">Resume</a></li>
+				    </ul>
+				
+					</div>					
+				   	<div class='boxbottom'><div></div></div>
+				</div>
+		
+			</div>
+		
+		</div>
+	</div>
+	
+	<div id="main">
 
-#header h1{
-	color:#3090C7;/*#8A4117;*/
-}
+	<p>Download <a href="downloads/asmijoshi_resume.pdf">my resume (PDF)</a>.</p>
 
-#menuBar {	
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px; 
-}
-
-#menuBar ul li {
-	display: inline;
-	margin: auto 40px auto 40px;
-	font-size: 25px;
-	color: #357EC7; /*#C35617; */
-}
-
-#main {
-	font-family:"Verdana", "Lucida Grande", helvetica, sans-serif;
-	margin: auto;
-	overflow: hidden;
-	width: 800px; 
-	text-align: left;
-}
-
-#main p {
-	color: #3090C7;
-}
-
-#main a {
-	text-decoration: none;
-	color: #87AFC7; /*#1569C7;*/
-}
-
-#footer {
-	text-align: right;
-	margin-top: 25px;
-	margin-bottom: 25px; 
-	clear: both;
-	font-size: 0.75em;
-	color: #808080;
-}
-
-/* To get the rounded edges on the menu bar */
-.box { 
-  background: #FAF8CC; 
+	<div id="footer">
+		site by <a href="http://students.washington.edu/asmij">me</a>
+	</div>
+  </div>
   
-  
-}
-.boxtop { 
-  background: url(img/ne.gif) no-repeat top right; 
-}
-.boxtop div { 
-  height: 5px; 
-  background: url(img/nw.gif) no-repeat top left; 
-}
-.boxbottom { 
-  background: url(img/se.gif) no-repeat bottom right; 
-}
-.boxbottom div { 
-  height: 5px; 
-  background: url(img/sw.gif) no-repeat bottom left; 
-}
-.boxcontent {
-  padding: 0px 10px 0px 10px;
-}
+</body>
+</html>
 
-.centered {
-	text-align: center;
-	width: 800px;
-	margin: auto;
-	padding: 0;
-}
 
-h1 {
-	text-align: left;
-	margin-bottom: 2px;
-	font-size: 250%;
-}

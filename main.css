@@ -34,8 +34,32 @@ body {
 	display: inline;
 	margin: auto 40px auto 40px;
 	font-size: 25px;
-	color: #E56717; /*#C35617; */
+	color: #E56717;  /*#C35617; */
 	
+}
+
+
+#menuBar li a {
+	text-decoration: none;
+}
+
+
+#menuBar li a:link {
+	color: #E56717;
+}
+
+
+#menuBar li a:hover {
+	color: #3090C7;	
+}
+
+
+#menuBar li a:active {
+	color: #3090C7;/*#E56717;*/
+}
+	
+#menuBar li a:visited {
+	color: inherit;
 }
 
 #menuBar li.current {
@@ -62,6 +86,7 @@ body {
 #main a:hover {
 	color: #3090C7;
 }
+
 #footer {
 	text-align: right;
 	margin-top: 25px;
@@ -74,9 +99,7 @@ body {
 
 /* To get the rounded edges on the menu bar */
 .box { 
-  background: #FAF8CC; 
-  
-  
+  background: #FAF8CC;   
 }
 .boxtop { 
   background: url(img/ne.gif) no-repeat top right; 
