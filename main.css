@@ -34,8 +34,8 @@ body {
 	display: inline;
 	margin: auto 40px auto 40px;
 	font-size: 25px;
-	color: #E56717;  /*#C35617; */
-	
+	color: #E56717;
+	  /*#C35617; */	
 }
 
 
@@ -43,9 +43,12 @@ body {
 	text-decoration: none;
 }
 
-
 #menuBar li a:link {
 	color: #E56717;
+}
+
+#menuBar li a:visited {
+	color: inherit;
 }
 
 
@@ -53,19 +56,14 @@ body {
 	color: #3090C7;	
 }
 
-
 #menuBar li a:active {
 	color: #3090C7;/*#E56717;*/
 }
-	
-#menuBar li a:visited {
-	color: inherit;
-}
+
 
 #menuBar li.current {
 	color: #3090C7;
 }
-
 #main {
 	font-family:"Verdana", "Lucida Grande", helvetica, sans-serif;
 	margin: auto;
@@ -81,6 +79,10 @@ body {
 #main a {
 	text-decoration: none;
 	color: #87AFC7; /*#3090C7;*/
+}
+
+#main a:visited {
+	color: #87AFC7;
 }
 
 #main a:hover {
