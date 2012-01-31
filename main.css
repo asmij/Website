@@ -155,7 +155,7 @@ h1, h2, h3{
 .portfolio p {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 }
 
 .portfolio h2 {
@@ -175,8 +175,12 @@ h1, h2, h3{
 .portfolioImage {	
 	float: left;
 	height: 300px;
-	width: 250px;
-	margin-right: 20px;	
+	margin-right: 20px;
+    width: 250px;		
+}
+
+.portfolioText b{
+	color: #E66C2C;
 }
 
 
