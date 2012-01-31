@@ -14,6 +14,7 @@ body {
 
 h1, h2, h3{
 	color: #E66C2C;/*#8A4117;*/
+	letter-spacing: 1px;
 }
 
 #header {
@@ -41,6 +42,7 @@ h1, h2, h3{
 	margin: auto 40px auto 40px;
 	font-size: 25px;
 	color: #E56717;
+	
 	  /*#C35617; */	
 }
 
@@ -80,6 +82,7 @@ h1, h2, h3{
 
 #main p {
 	color: #F9966B;
+	letter-spacing: 1px;
 }
 
 #main a {
@@ -97,10 +100,17 @@ h1, h2, h3{
 
 #main ul li {
 	color: #F9966B;
+	letter-spacing: 1px;
 }
 
 #background {
 	padding-bottom: 20px;
+}
+
+#resume_img {
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: auto;
 }
 
 #footer {
