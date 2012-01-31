@@ -12,6 +12,10 @@ body {
     text-align:center;
 }
 
+h1, h2, h3{
+	color: #E66C2C;/*#8A4117;*/
+}
+
 #header {
 	font-family:"Verdana", "Lucida Grande", helvetica, sans-serif;
 	margin: 0px;
@@ -19,8 +23,10 @@ body {
 		
 }
 
-#header h1{
-	color: #E66C2C;/*#8A4117;*/
+#header h1 {
+	text-align: left;
+	margin-bottom: 2px;
+	font-size: 250%;
 }
 
 #menuBar {	
@@ -89,6 +95,14 @@ body {
 	color: #3090C7;
 }
 
+#main ul li {
+	color: #F9966B;
+}
+
+#background {
+	padding-bottom: 20px;
+}
+
 #footer {
 	text-align: right;
 	margin-top: 25px;
@@ -128,8 +142,34 @@ body {
 	padding: 0;
 }
 
-h1 {
-	text-align: left;
-	margin-bottom: 2px;
-	font-size: 250%;
+
+.portfolio p {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
+
+.portfolio h2 {
+	margin-top: 50px;
+	margin-bottom: 1px;
+}
+
+.subheading {
+	height: 375px;
+	margin-bottom: 20px;	
+}
+
+.subheading h2 {
+	color: #E66C2C;
+}
+
+.portfolioImage {	
+	float: left;
+	height: 300px;
+	width: 250px;
+	margin-right: 20px;	
+}
+
+
+
+
+
