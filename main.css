@@ -179,8 +179,9 @@ h1, h2, h3{
     width: 250px;		
 }
 
-.portfolioText b{
-	color: #E66C2C;
+
+.portfolioText ul li {
+	margin-bottom: 1px;	
 }
 
 
