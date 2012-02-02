@@ -177,6 +177,20 @@ h1, h2, h3{
 	color: #E66C2C;
 }
 
+.small_subheading {
+	height: 330px;
+}
+
+
+.portfolioText p {
+	letter-spacing: 5px;
+}
+
+.portfolioText ul li {
+	margin-bottom: 1px;	
+	letter-spacing: 5px;
+}
+
 .portfolioImage {	
 	float: left;
 	height: 300px;
@@ -184,27 +198,12 @@ h1, h2, h3{
     width: 250px;		
 }
 
+
 .portfolioImage_small {
 	float: left;
 	height: 200px;
 	margin-right: 20px;
     width: 250px;	
-}
-
-
-.portfolioText ul li {
-	margin-bottom: 1px;	
-	letter-spacing: 5px;
-	
-}
-
-
-.small_subheading {
-	height: 300px;
-}
-
-.portfolioText p {
-	letter-spacing: 5px;
 }
 
 
