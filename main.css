@@ -106,11 +106,17 @@ h1, h2, h3{
 	padding-bottom: 20px;
 }
 
+#background p {
+	letter-spacing: .5px;
+}
+
+
 #resume_img {
 	margin-top: 20px;
 	margin-left: 60px;
 	margin-right: auto;
 }
+
 
 #footer {
 	text-align: right;
@@ -155,7 +161,6 @@ h1, h2, h3{
 .portfolio p {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	letter-spacing: .5px;
 }
 
 .portfolio h2 {
@@ -179,9 +184,33 @@ h1, h2, h3{
     width: 250px;		
 }
 
+.portfolioImage_small {
+	float: left;
+	height: 200px;
+	margin-right: 20px;
+    width: 250px;	
+}
+
 
 .portfolioText ul li {
 	margin-bottom: 1px;	
+	letter-spacing: 5px;
+	
+}
+
+
+.small_subheading {
+	height: 300px;
+}
+
+.portfolioText p {
+	letter-spacing: 5px;
+}
+
+
+.project {
+	height: 300px;
+	
 }
 
 
