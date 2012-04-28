@@ -31,7 +31,7 @@ h1, h2, h3{
 }
 
 #header h3 {
-	color: #ffffff;
+	color: #ebebeb;
 	text-align: left;
 	margin-top: 0px;
 	margin-bottom: 4px;
@@ -93,16 +93,16 @@ h1, h2, h3{
 
 
 #menuBar li a:hover {
-	color: #94100f;	
+	color: #f7b1b0;	
 }
 
 #menuBar li a:active {
-	color: #94100f;/*#E56717;*/
+	color: #f7b1b0;/*#E56717;*/
 }
 
 
 #menuBar li.current {
-	color: #94100f;
+	color: #f7b1b0;
 }
 
 #main {
@@ -120,15 +120,15 @@ h1, h2, h3{
 
 #main a {
 	text-decoration: none;
-	color: #aad3ea; /*#3090C7;*/
+	color: #f7b1b0; /*#3090C7;*/
 }
 
 #main a:visited {
-	color: #aad3ea;
+	color: #f7b1b0;
 }
 
 #main a:hover {
-	color: #3090C7;
+	color: #ab1211;
 }
 
 #main ul li {
