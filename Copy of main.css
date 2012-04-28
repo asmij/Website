@@ -5,20 +5,20 @@ Author: 	Asmi Joshi, 2012
 
 
 body {
-	font-family: "verdana", sans-serif; 
-    background: #353535; /*#fafcfe;*/ 
+	font-family: sans-serif; 
+    background: #353535; 
     margin: 0;
     padding: 0;
     text-align:center;
 }
 
 h1, h2, h3{
-	color: #ab1211; /*#cb1515;/*#8A4117;*/
+	color: #E66C2C;/*#8A4117;*/
 	letter-spacing: .5px;
 }
 
 #header {
-	font-family: "verdana", helvetica, sans-serif;
+	font-family:"Verdana", "Lucida Grande", helvetica, sans-serif;
 	margin: 0px;
 	overflow: hidden;
 		
@@ -64,18 +64,13 @@ h1, h2, h3{
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px; 
-	
-	background: #11aaab;
-  	border-radius: 5px;   
-  	-moz-border-radius: 5px;
-  	padding: .5px;
 }
 
 #menuBar ul li {
 	display: inline;
 	margin: auto 40px auto 40px;
 	font-size: 25px;
-	color: #ebebeb;
+	color: #E56717;
 	letter-spacing: .5px;
 }
 
@@ -84,7 +79,7 @@ h1, h2, h3{
 }
 
 #menuBar li a:link {
-	color: #ebebeb;
+	color: #E56717;
 }
 
 #menuBar li a:visited {
@@ -93,20 +88,20 @@ h1, h2, h3{
 
 
 #menuBar li a:hover {
-	color: #94100f;	
+	color: #3090C7;	
 }
 
 #menuBar li a:active {
-	color: #94100f;/*#E56717;*/
+	color: #3090C7;/*#E56717;*/
 }
 
 
 #menuBar li.current {
-	color: #94100f;
+	color: #3090C7;
 }
 
 #main {
-	font-family: "Verdana", "Lucida Grande", helvetica, sans-serif;
+	font-family:"Verdana", "Lucida Grande", helvetica, sans-serif;
 	margin: auto;
 	overflow: hidden;
 	width: 800px; 
@@ -114,17 +109,17 @@ h1, h2, h3{
 }
 
 #main p {
-	color: #ebebeb;
+	color: #F9966B;
 	letter-spacing: .5px;
 }
 
 #main a {
 	text-decoration: none;
-	color: #aad3ea; /*#3090C7;*/
+	color: #87AFC7; /*#3090C7;*/
 }
 
 #main a:visited {
-	color: #aad3ea;
+	color: #87AFC7;
 }
 
 #main a:hover {
@@ -132,7 +127,7 @@ h1, h2, h3{
 }
 
 #main ul li {
-	color: #ebebeb;
+	color: #F9966B;
 	letter-spacing: .5px;
 }
 
@@ -162,15 +157,11 @@ h1, h2, h3{
 }
 
 
-/* To get the rounded edges on the menu bar 
+/* To get the rounded edges on the menu bar */
 .box { 
-  background: #353535;
-  border-radius: 5px;   
-  -moz-border-radius: 5px;
+  background: #FAF8CC;   
 }
-*/
-
-/*.boxtop { 
+.boxtop { 
   background: url(img/ne.gif) no-repeat top right; 
 }
 .boxtop div { 
@@ -186,7 +177,8 @@ h1, h2, h3{
 }
 .boxcontent {
   padding: 0px 10px 0px 10px;
-}*/
+}
+
 .centered {
 	text-align: center;
 	width: 800px;
