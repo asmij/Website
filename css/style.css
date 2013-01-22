@@ -1,0 +1,74 @@
+
+/*Created 01/19/2013 by Asmi Joshi */
+
+@charset "UTF-8";
+
+body {
+    padding-top:10px;
+    background-image: url("../img/white_wall.png");
+}
+
+ h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;  
+    /*padding-bottom: 10px;      */
+}
+
+.nav li {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*p, li {
+    font-family: ', sans-serif;        
+}*/
+
+#project_info h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/*#project_info p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}*/
+
+
+/* ~~this fixed width container surrounds the other divs~~ */
+.container {
+	width: 940px;
+	height: 0px;	
+	margin: 0 auto;  /*the auto value on the sides, coupled with the width, centers the layout */
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.thumbnail {
+	background-color: white;
+}
+
+.images {
+	padding-bottom: 25px;
+}
+
+.displayed {
+	/*width: 600px;*/
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.step {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.role li {
+	font-style: italic;
+}
+
+
+
+
